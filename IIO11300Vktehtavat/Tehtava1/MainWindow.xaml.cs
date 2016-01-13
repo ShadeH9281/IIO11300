@@ -1,8 +1,8 @@
 ﻿/*
 * Copyright (C) JAMK/IT/Esa Salmikangas
 * This file is part of the IIO11300 course project.
-* Created: 12.1.2015
-* Authors: Esa Salmikangas
+* Created: 12.1.2015 Modified 13.1.2016
+* Authors: Esa Salmikangas, Toni Pajukanta
 */using System;
 using System.Collections.Generic;
 using System.Linq;
