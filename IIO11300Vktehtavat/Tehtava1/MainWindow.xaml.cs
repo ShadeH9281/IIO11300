@@ -5,12 +5,16 @@
 * Authors: Esa Salmikangas, Toni Pajukanta
 */
 
-/*
+/*Modified 20.1.2016
  * I was trying to data inputted from MainWindow.xaml to xaml.cs
  * 
  * Status:
  * UI is pretty much finished. However getting the data input is little confusing thus is has slowed down the rest.
  * 
+ *Modified 20.1.2016: later on the same day
+ *
+ *Status:
+ *UI and data input and output had been done. Only thing that is really missing is error checking for putting letters instead of numbers and such.
  */
 using System;
 using System.Collections.Generic;
@@ -41,6 +45,8 @@ namespace Tehtava1
 
         private void btnCalculate_Click(object sender, RoutedEventArgs e)
         {
+
+            /*
             //TODO
             try
             {
@@ -55,6 +61,44 @@ namespace Tehtava1
             {
                 //yield to an user that everything okay
             }
+            */
+            try
+            {
+
+                // gets data
+                double widht = double.Parse(txtWidht.Text);
+                double height = double.Parse(txtHeight.Text);
+                double woodWd = double.Parse(txtWoodWd.Text);
+
+                // calculates window area
+                double area1 = widht * height;
+
+                // adds wooden frame to calculations
+                double woodWinWd = widht + woodWd;
+                double woodWinHt = height + woodWd;
+
+                // calculates perimeter of the wooden frame
+                double parameter = woodWinHt * 2 + woodWinWd * 2;
+                // calculates area of the window and it's frame.     
+                double area2 = woodWinHt * woodWinWd;
+
+                // outputs the information to MainWindow
+                windowArea.Text = area1.ToString();
+                frameArea.Text = parameter.ToString();
+                framePerim.Text = area2.ToString();
+
+
+            }
+            catch (Exception ex)
+            {
+
+                MessageBox.Show(ex.Message)
+
+                
+            }
+
+
+
         }
 
     private void btnClose_Click(object sender, RoutedEventArgs e)
@@ -63,20 +107,24 @@ namespace Tehtava1
     }
   }
 
+    /*
   public class BusinessLogicWindow
     {
     /// <summary>
     /// CalculatePerimeter calculates the perimeter of a window
     /// </summary>
+    
+
+            
     public static double CalculatePerimeter(double widht, double height)
         {
             
-            txtWidht.Text = widht;
-            txtHeight.Text = height;
+            
             throw new System.NotImplementedException();
         }
+
     }
 
-    
+*/    
 
 }

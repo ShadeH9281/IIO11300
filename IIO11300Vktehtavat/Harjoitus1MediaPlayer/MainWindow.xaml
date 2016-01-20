@@ -9,6 +9,7 @@
     <Grid>
         <MediaElement x:Name="mediaElement" HorizontalAlignment="Left" Height="274" Margin="10,35,0,0" VerticalAlignment="Top" Width="497" LoadedBehavior="Manual"/>
         <Button x:Name="btnPlay" Content="Play" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="75" Click="btnPlay_Click"/>
+        <Button x:Name="btnPause" Content="Pause" HorizontalAlignment="Left" Height="20" Margin="90,10,0,0" VerticalAlignment="Top" Width="77" Click="btnPause_Click"/>
 
     </Grid>
 </Window>

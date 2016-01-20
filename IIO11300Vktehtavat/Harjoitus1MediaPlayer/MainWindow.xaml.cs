@@ -23,25 +23,46 @@ namespace Harjoitus1MediaPlayer
         public MainWindow()
         {
             InitializeComponent();
+
+            LoadMediaFile();
+
+            
+
         }
 
-        private void btnPlay_Click(object sender, RoutedEventArgs e)
+        private void LoadMediaFile()
         {
-            string filu = @"D:\salesa\testi.mp4";
+            string filu = @"D:\H9281\CoffeeMaker.mp4";
 
             if (System.IO.File.Exists(filu))
             {
 
-                MessageBox.Show("Playing " + filu);
+
                 mediaElement.Source = new Uri(filu);
-                mediaElement.Play();
+
             }
             else {
                 MessageBox.Show("File not found");
+            }
+
+        }
+
+        private void btnPlay_Click(object sender, RoutedEventArgs e)
+        {
+
+            
+                
+                mediaElement.Play();
+            
 
             }
 
 
+        
+
+        private void btnPause_Click(object sender, RoutedEventArgs e)
+        {
+            mediaElement.Pause();
         }
     }
 }
