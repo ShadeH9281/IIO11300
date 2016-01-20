@@ -1,9 +1,18 @@
 ﻿/*
 * Copyright (C) JAMK/IT/Esa Salmikangas
 * This file is part of the IIO11300 course project.
-* Created: 12.1.2015 Modified 13.1.2016
+* Created: 12.1.2015 Modified 20.1.2016
 * Authors: Esa Salmikangas, Toni Pajukanta
-*/using System;
+*/
+
+/*
+ * I was trying to data inputted from MainWindow.xaml to xaml.cs
+ * 
+ * Status:
+ * UI is pretty much finished. However getting the data input is little confusing thus is has slowed down the rest.
+ * 
+ */
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -61,7 +70,13 @@ namespace Tehtava1
     /// </summary>
     public static double CalculatePerimeter(double widht, double height)
         {
+            
+            txtWidht.Text = widht;
+            txtHeight.Text = height;
             throw new System.NotImplementedException();
         }
     }
+
+    
+
 }

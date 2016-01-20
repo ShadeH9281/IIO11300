@@ -7,15 +7,28 @@
         mc:Ignorable="d"
         Title="Oy K-S Windows Ab" Height="350" Width="525" FontSize="18">
     <Grid>
-    <StackPanel Orientation="Horizontal">
-      <StackPanel Orientation="Vertical">
-        <TextBlock x:Name="tbWidht" Text="Ikkunan leveys" Height="28" Margin="10,10,10,0" />
-        <TextBox x:Name="txtWidht" Text="600" Height="28" Width="114" Margin="10,10,10,0" />
-      </StackPanel>
-      <StackPanel Orientation="Vertical">
-        <Button x:Name="btnCalculate" Content="Laske pinta-ala ja piiri" Height="32" Width="180" Click="btnCalculate_Click" Margin="10,10,10,0"/>
-        <Button x:Name="btnClose" Content="Sulje" Height="32" Width="180" Click="btnClose_Click" Margin="10,10,10,0"/>
-      </StackPanel>
-    </StackPanel>
-  </Grid>
+        <StackPanel Orientation="Horizontal">
+            <StackPanel Orientation="Vertical">
+                <TextBlock x:Name="tbWidht" Text="Ikkunan leveys" Height="28" Width="114" Margin="10,10,10,0" />
+                <TextBox x:Name="txtWidht" Text="Insert" Height="28" Width="114" Margin="10,10,10,0" />
+                <TextBlock x:Name="tbHeight" Height="49" TextWrapping="Wrap" Text="Ikkunan korkeus" Width="114" RenderTransformOrigin="0.496,1.156" Margin="10,10,10,0"/>
+                <TextBox x:Name="txtHeight" Height="28" TextWrapping="Wrap" Text="Insert" Width="114" Margin="10,10,10,0"/>
+                <TextBlock x:Name="tbWoodWd" Height="49" TextWrapping="Wrap" Text="Karmipuu leveys" Width="114" RenderTransformOrigin="0.496,1.156" Margin="10,10,10,0"/>
+                <TextBox x:Name="txtWoodWd" Height="28" TextWrapping="Wrap" Text="Insert" Width="114" Margin="10,10,10,0"/>
+            </StackPanel>
+            <StackPanel Orientation="Vertical">
+                <Button x:Name="btnCalculate" Content="Laske pinta-ala ja piiri" Height="32" Width="180" Click="btnCalculate_Click" Margin="10,10,10,0"/>
+                <Button x:Name="btnClose" Content="Sulje" Height="32" Width="180" Click="btnClose_Click" Margin="10,10,10,0"/>
+            </StackPanel>
+            <StackPanel Orientation="Vertical">
+                <TextBlock x:Name="titleWindowArea" Text="Ikkunan pinta-ala:" Height="25" Width="148" Margin="10,10,10,0" />
+                <TextBlock x:Name="windowArea" Text="" Height="28" Width="114" Margin="10,10,10,0" />
+                <TextBlock x:Name="titleFrameArea" Height="49" TextWrapping="Wrap" Text="Karmipuun piiri:" Width="148" RenderTransformOrigin="0.496,1.156" Margin="10,10,10,0"/>
+                <TextBlock x:Name="frameArea" Height="49" TextWrapping="Wrap" Text="" Width="114" RenderTransformOrigin="0.496,1.156" Margin="10,10,10,0"/>
+                <TextBlock x:Name="titleFramePerim" Height="49" TextWrapping="Wrap" Text="Karmipuun pinta-ala:" Width="148" RenderTransformOrigin="0.496,1.156" Margin="10,10,10,0"/>
+                <TextBlock x:Name="framePerim" Height="49" TextWrapping="Wrap" Text="" Width="114" RenderTransformOrigin="0.496,1.156" Margin="10,10,10,0"/>
+                
+            </StackPanel>
+        </StackPanel>
+    </Grid>
 </Window>
