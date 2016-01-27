@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.24720.0
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tehtava1", "Tehtava1\Tehtava1.csproj", "{BBFDB3F8-2232-4C51-A154-1DFFF2E75FE7}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Harjoitus1MediaPlayer", "Harjoitus1MediaPlayer\Harjoitus1MediaPlayer.csproj", "{A7CBBE89-BE6D-47C9-BBA7-22E06288216D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tehtava2", "Tehtava2\Tehtava2.csproj", "{6AA235F5-DCD9-4E9C-A363-938A2092EB08}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{A7CBBE89-BE6D-47C9-BBA7-22E06288216D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A7CBBE89-BE6D-47C9-BBA7-22E06288216D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A7CBBE89-BE6D-47C9-BBA7-22E06288216D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6AA235F5-DCD9-4E9C-A363-938A2092EB08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AA235F5-DCD9-4E9C-A363-938A2092EB08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AA235F5-DCD9-4E9C-A363-938A2092EB08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AA235F5-DCD9-4E9C-A363-938A2092EB08}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
