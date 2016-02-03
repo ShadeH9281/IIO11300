@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using Microsoft.Win32;
 
 namespace Harjoitus1MediaPlayer
 {
@@ -26,9 +27,11 @@ namespace Harjoitus1MediaPlayer
 
             LoadMediaFile();
 
-            
+
 
         }
+
+        //@"D:\H9281\CoffeeMaker.mp4";
 
         private void LoadMediaFile()
         {
@@ -63,6 +66,13 @@ namespace Harjoitus1MediaPlayer
         private void btnPause_Click(object sender, RoutedEventArgs e)
         {
             mediaElement.Pause();
+        }
+
+        private void btnFile_Click(object sender, RoutedEventArgs e)
+        {
+            OpenFileDialog dlg = new OpenFileDialog();
+            dlg.InitialDirectory = "d:\\H9281";
+            dlg.Filter = "Rock files (*.mp3)[*.mp3]Media files (*.wmv)[*wmv]";
         }
     }
 }
