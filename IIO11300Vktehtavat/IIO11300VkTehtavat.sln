@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tehtava2", "Tehtava2\Tehtav
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "H3MittausData", "H3MittausData\H3MittausData.csproj", "{98F63F70-1E7E-4B89-9C8A-5A4E34F2F16A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "H4KonsoliXML", "H4KonsoliXML\H4KonsoliXML.csproj", "{EBDB0CB4-9EBD-4629-9595-9610588634B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "H4VpfXml", "H4VpfXml\H4VpfXml.csproj", "{45766359-9952-4F35-860B-2E4DD43CE40C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{98F63F70-1E7E-4B89-9C8A-5A4E34F2F16A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{98F63F70-1E7E-4B89-9C8A-5A4E34F2F16A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{98F63F70-1E7E-4B89-9C8A-5A4E34F2F16A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBDB0CB4-9EBD-4629-9595-9610588634B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBDB0CB4-9EBD-4629-9595-9610588634B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBDB0CB4-9EBD-4629-9595-9610588634B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBDB0CB4-9EBD-4629-9595-9610588634B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45766359-9952-4F35-860B-2E4DD43CE40C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45766359-9952-4F35-860B-2E4DD43CE40C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45766359-9952-4F35-860B-2E4DD43CE40C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45766359-9952-4F35-860B-2E4DD43CE40C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
