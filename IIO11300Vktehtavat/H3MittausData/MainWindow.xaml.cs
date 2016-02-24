@@ -41,7 +41,7 @@ namespace H3MittausData
             try
             {
                 MittausData.SaveDataToFile(mitatut, txtDataName.Text);
-                MessageBox.Show("Tiedot tallennettu upupupuu~")
+                MessageBox.Show("Tiedot tallennettu upupupuu~");
             }
             catch (Exception ex)
             {
