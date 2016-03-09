@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "H5MoviesXML", "H5MoviesXML\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "H6DataBindingX3", "DataBindingX3\H6DataBindingX3.csproj", "{7BB2F488-7DA4-44C9-BA69-EEAA92208DE3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "H7ADOConsoleDemo", "H7ADOConsoleDemo\H7ADOConsoleDemo.csproj", "{468EF54B-41C0-4CB4-AFA1-BEF6169303F2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,10 @@ Global
 		{7BB2F488-7DA4-44C9-BA69-EEAA92208DE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7BB2F488-7DA4-44C9-BA69-EEAA92208DE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7BB2F488-7DA4-44C9-BA69-EEAA92208DE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{468EF54B-41C0-4CB4-AFA1-BEF6169303F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{468EF54B-41C0-4CB4-AFA1-BEF6169303F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{468EF54B-41C0-4CB4-AFA1-BEF6169303F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{468EF54B-41C0-4CB4-AFA1-BEF6169303F2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

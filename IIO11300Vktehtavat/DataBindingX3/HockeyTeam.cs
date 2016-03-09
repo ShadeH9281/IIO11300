@@ -1,12 +1,66 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace H6DataBindingX3
 {
-    class HockeyTeam
+
+    public class HockeyPLayer : INotifyPropertyChanged
+    {
+        private string name;
+        private string number;
+
+        private string Number
+        {
+           
+            set { number = value; Notify("Number"); Notify("NameAndNumber"); }
+            get { return number; }
+        }
+        public string Name {
+            set {name = value; Notify("Name"); Notify("NameAndNumber"); }
+
+            get { return name;}
+        }
+
+        public string NameAndNumber
+        {
+            get { return name + "#" + number; }
+
+        }
+    }
+
+    public HockeyPlayer()
+    {
+
+
+
+    }
+
+    public HockeyPlayer(string name)
+    {
+        this.name = name;
+        this.number = number;
+    }
+
+    public override string ToString() {
+        return name + "#" + number;
+    }
+
+    public event PropertyChangedEventHandler PropertyChanged;
+
+    void Notify(string propName)
+    {
+        if (PropertyChanged != null)
+        {
+            PropertyChanged(this, new PropertyChangedEventArgs(propName));
+
+        }
+    }
+
+    public class HockeyTeam
     {
         #region PROPERTIES
 
